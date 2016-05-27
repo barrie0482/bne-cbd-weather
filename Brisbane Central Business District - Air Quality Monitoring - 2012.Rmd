@@ -1,0 +1,59 @@
+---
+title: "Brisbane CBD (Brisbane) 2012 hourly air quality and meteorological data"
+output: html_document
+---
+
+
+**Source:** [Brisbane Central Business District - Air Quality Monitoring - 2012 - Queensland Government Data website](https://data.qld.gov.au/dataset/air-quality-monitoring-2012/resource/35aec14e-469c-4508-9b63-551100662959)
+
+* [Brisbane CBD 2012 air quality monitoring Dataset](http://ehp.qld.gov.au/data-sets/brisbanecbd-aq-2012.csv)
+
+**Period of operation:** 1 January to 31 December 2012  
+**Region:** South East Queensland  
+**Site location: Latitude:** -27.4774; Longitude: 153.0281  
+**AS/NZS 3580.1.1:2007:** Neighbourhood  
+
+**site classification: AS/NZS 3580.1.1:2007 compliance (pollutants):** Complies with the exception of the following:
+*Equipment located in room on sixth floor of building*  
+Nephelometer inlet located on eastern side of building, 1 metre out from building  
+*PM10 inlet located on building roof above equipment room, 1 metre above roof surface*  
+Building lift shaft higher than PM10 inlet located 8 metres S of inlet  
+
+**AS/NZS 3580.14—2011 compliance (meteorology):** Complies with the exception of the following:  
+*Building lift shaft higher than wind sensor and within 10 metres of sensor*  
+Buildings higher than wind sensor located within 40 metres of sensor  
+*Temperature sensor located in non-aspirated radiation shield 1 metre above roof surface*  
+
+**Wind:** Ultrasonic sensor  
+Height above roof level: 4 metres  
+*The wind direction sensor is aligned to magnetic north. The reported wind direction is referenced to true north by application of a magnetic declination correction of +11 degrees to the sensor output value.*  
+
+**Temperature:** Capacitive ceramic sensor  
+
+**PM10:**  *Tapered Element Oscillating Balance (TEOM) operated in accordance with AS 3580.9.8—2001*  
+Measurement values do not compensate for loss of semi-volatile components from the collected particulate matter  
+*Instrument output values are adjusted in accordance with US EPA equivalence designation method EQPM-1090-079 requirements (scaled by 1.03, offset by +3.0)*  
+After adjustment, negative hourly PM10 concentrations less than -0.5 µg/m3 are removed and concentrations between -0.5 µg/m3 and 0.0 µg/m3 are set to 0.0 µg/m3  
+
+**Visibility-reducing particles:** Nephelometer operated in accordance with AS/NZS 3580.12.1:2001  
+*Detector spectral response centred at 530 nm.*  
+Instrument output offset and/or scaled based on calibration and daily zero/span response data
+
+### Data Metric Definitions 
+
+Data Metric Definitions provided by the **Environmental Monitoring and Assessment Sciences, Science Division
+Department of Science, Information Technology and Innovation, Queensland Government, Australia.**
+
+|Metric |Description|
+|-------|-----------|
+|Date|Date of observation|
+|Time|The start of the one-hour averaging period (i.e. 10:00am reports the average value for the period from 10:00am to 11:00am)|
+|Wind Direction (degTN)|One-hour average wind direction in units of degrees relative to true north reference. The reported wind direction is the direction the wind is blowing from (i.e. 90 degrees means winds blowing from the east towards the west)|
+|Wind Speed (m/s)|One-hour average wind speed in units of metres per second|
+|Wind Sigma Theta (deg)|standard deviation of the individual wind direction measurements during the one-hour averaging period in units of degrees.  Wind sigma theta is a measure of the variability of the individual 10-second measurements used in the calculation of the hourly average wind direction.|
+|Wind Speed Std Dev (m/s)|Standard deviation of the individual wind speed measurements during the one-hour averaging period in units of metres per second. Wind speed standard deviation is a measure of the variability of the 10-second wind speed measurements used in the calculation of the hourly wind speed.|
+|Air Temperature (degC)|One-hour average outdoor air temperature in units of degrees Celcius|
+|PM10 (µg/m^3)|One hour average PM10 (particles less than 10 micrometres in diameter) in units of micrograms per cubic metre.  PM10 at the Brisbane CBD site is measured with a Tapered Element Oscillating Microbalance (TEOM) instrument.  If you want more information on the way the TEOM instrument measures particles please refer to the theory of operation section (Section 1.5) in the TEOM operating manual (a copy can be obtained from the following website http://itepsrv1.itep.nau.edu/itep_course_downloads/Glenns_FTP%20folder/Jack/1400.pdf).|
+|Visibility-reducing particles (Mm^-1)|One-hour average light scattering coefficient (Bsp) value in units of inverse megametres.  The light scattering coefficient is a measure of the amount of scattering of light by particles and gases present in the atmosphere, which influences how far one can distinguish objects in the distance.  A reading of 235 Mm-1 is equivalent to a visual distance of 20 kilometres in dry air (actual visual distance may be less as water vapour in the air also scatters light).  Due to the inverse relationship, higher Bsp values indicate reduced visual distance and vice-versa.|
+
+
