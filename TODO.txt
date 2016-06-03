@@ -1,3 +1,0 @@
-Presentation - Ptich
-Fix the imputation to be average of 2 days either side of the NA
-Document code

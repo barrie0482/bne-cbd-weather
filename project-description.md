@@ -38,7 +38,7 @@ The calculated first date (minumum) and the last date (maximum) is passed to the
 
 ##### **_Objective 2. Some operation on the ui input in sever.R_**
 
-When the user selects a date using the **Date input** widget, the server selects and prepares the data for that date. The wind speed supplied by the dataset is in metres per second. The server performs a calculation to convert the wind speed in metres per second to kilometres per hour.
+When the user selects a date using the **Date input** widget, the server selects and prepares the data for that date. The wind speed supplied by the dataset is in metres per second. The server uses code in **server.R** to perform a calculation to convert the wind speed in metres per second to kilometres per hour.
 
 ##### **_Objective 3. Some reactive output displayed as a result of server calculations_**
 
